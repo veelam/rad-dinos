@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rad History! - Rad Dinos!</title>
+    <link rel="preload" as="image" href="src/assets/images/background.png">
+    <link rel="preload" as="font" href="src/assets/fonts/ArchitectsDaughter-Regular.ttf" type="font/ttf" crossorigin="anonymous"> 
+    <!-- <link rel="preload" as "style" href="/src/css/style.css"> -->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicons/favicon-32x32.png">
+    <link rel="manifest" href="/public/manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content= "Rad History Presents: Rad Dinos! - learn about dinosaurs you might not have heard about in school!">
+    <meta name="theme-color" content="#65155a">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<!---- NAV ---->
+  <body>
+    <nav class="nav" role="navigation">
+    <div class="nav__logo-wrapper">
+      <img class="nav__logo" src="src/assets/images/nav-logo.png" alt="rad history brand logo">
+      <div class="nav__subtitle"><span>presents:</span></div>
+    </div>
+        <div class="nav__social">
+          <ul>
+            <li><a href="https://www.amnh.org/dinosaurs" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/facebook.png" width="32" height="32" alt="facebook logo"></a></li>
+            <li><a href="https://www.instagram.com/amnh/" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/instagram-logo.png" width="32" height="32" alt="instagram logo"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!---- HERO SECTION (PARALLAX SCENE) ---->
+    <section id="hero" role="region">
+      <div id="hero__scene">
+        <div data-depth="0.2" class="hero__background">
+          <img src="/src/assets/images/background.png" width="2000" height="983" loading="eager" role="img" alt="background of parallax scene" />
+        </div>
+        <div data-depth="0.3" class="hero__cloud">
+          <img src="/src/assets/images/cloud.png" width="360" height="75" loading="eager" role="img" alt="cloud">
+        </div>
+        <div data-depth="1.2" class="hero__brachiosaurus">
+          <img src="/src/assets/images/brachiosaurus.png" width="1128" height="824" loading="eager" role="img" alt="brachiosaurus">
+        </div>
+        <div class="hero__title">
+          <h1>RAD DINOS!</h1>
+        </div>
+        <div data-depth="0.4" class="hero__mid">
+          <img src="/src/assets/images/mid.png" width="1700" height="887" loading="eager" role="img" alt="middle of parallax scene">
+        </div>
+        <div data-depth="0.1" class="hero__foreground">
+          <img src="/src/assets/images/foreground.png" width="500" height="522" loading="eager" role="img" alt="foreground of parallax scene" />
+        </div>
+       <div class="hero__mouse">
+        <span><h1>scroll down to meet the dinos!</h1></span>
+         <img src="/src/assets/images/hero-mouse-icon.png" width="125" height="125" loading="eager" role="img" alt="mouse scroll down"><br>
+         <img src="/src/assets/images/chevron-down.png" width="75" height="37" loading="eager" role="img" alt="chevron scroll down">
+       </div>
+      </div>
+    </section>
+
+<!---- MAIN SECTION - SWIPER VIA SWIPERJS ---->
+    <section id="main" role="main">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- SLIDE ONE -->
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"fused lizard"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Ankylosaurus</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE: 
+                  <span style="opacity: 0.8">
+                    Length: 33 feet,  Height: 4 feet, Weight: 5 - 6.5 tons
+                 </span>
+                </h5>
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Cretaceous Period (145.5 million to 66 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Ankylosaurus was a tank-like, plant-eating dinosaur - its entire top side was heavily protected from carnivores with thick, 
+                  oval plates embedded (fused) in its leathery skin, 2 rows of spikes along its body, large horns that projected 
+                  from the back of the head, and a club-like tail. It even had bony plates as protection for its eyes. 
+                  Only its under-belly was unplated. Among its contemporaries were the large meat-eating Tyrannosaurus, 
+                  Tarbosaurus, and Deinonychus. Short of being flipped over, the Ankylosaurus was well protected from 
+                  these predators, and could even defend itself with its club-like tail.
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 02 ---->
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"arm lizard"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Brachiosaurus</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Length: 75 feet, Height: 20 feet, Weight: 55-66 tons
+                  </span>
+                </h5>
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Late Jurassic and Early Cretaceous Period 
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Brachiosaurus is known to be one of the largest, heaviest, and tallest of the dinosaurs. Its distinctive
+                  features include a giraffe-like neck, short tail, and nostrils above its eyes. Its head was considerably 
+                  smaller than the rest of its gigantic body. It may have used its tail and elongated neck for display purposes, defense, 
+                  and fighting. Brachiosaurus walked on all fours and had front legs that were stronger than its rear legs. 
+                  Since the front legs were stronger, the body sloped downward. Brachiosaurus' long neck allowed it to 
+                  forage on the tops of trees. It did not chew its food, but used its jaws to collect food, which the tongue 
+                  pushed down into the throat. 
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 03 ---->
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"terrible claw"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Deinonychus</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Length: 8 feet, perhaps longer, Height: 5 feet, Weight: 100-150 pounds
+                  </span>
+                </h5>
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Early Cretaceous Period (145.5 million to 99.6 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Deinonychus was a carnivorous, or meat-eating, dinosaur that inhabited North America during 
+                  the early Cretaceous period, approximately 98 to 144 million years ago. Deinonychus is classified 
+                  in the family Dromaeosauridae, which contains some of the most fearsome predators of the Cretaceous period. 
+                  The Dromaeosauridae belong to the order Saurischia (the lizard-hipped dinosaurs) and the suborder Theropoda.
+                  As a predator, Deinonychus was built for the chase and the kill. Its body was strong and light, with
+                  large sicklelike talons that measured 13cm long on the second toe of each foot. Deinonychus had a 
+                  large brain, which enabled it to perform complex chase and kill movements.
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 04 ---->
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"high ridge tooth"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Hypsilophodon</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Length: 6.5 feet, Height: 2 feet, Weight: 130 pounds 
+                  </span>
+                </h5>
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Early Cretaceous Period (115 million - 110 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Hypsilophodon had a beak made of horn, cheek pouches and 28-30 self-sharpening cheek teeth in a small 
+                  skull 4 3/4 inches (12 cm) long, by 2 inches (5 cm) wide. Hypsilophodon may have had 2 rows of bony plates 
+                  running down its back. Slender legs and a stiffened tail gave it speed and agility. It had large eyes, 
+                  strong jaws, five-fingered hands and four-toed feet (one toe on each foot had a hind claw).
+                  Small and fast, this herbivore had rear legs much longer than the front legs, self-sharpening 
+                  cheek teeth to nip off vegetation, and cheek pouches for storing food.
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 05 ---->
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"iguana tooth"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Iguanodon</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Length: 30 feet, Height: 6.5 feet, 5 tons
+                  </span>
+                </h5>
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Late Jurassic and Early Cretaceous Period (161.2 million - 99.6 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Iguanodon was the largest, best known, and most widespread of all the iguanodontids, which 
+                  are closely related to the hadrosaurs, or duck-billed dinosaurs. A massive herbivore, the 
+                  animal probably spent its time grazing while moving about on four legs, although it was 
+                  able to walk on two. Iguanodontid forelimbs had an unusual five-fingered hand: the wrist 
+                  bones were fused into a block; the joints of the thumb were fused into a conelike spike; 
+                  the three middle fingers ended in blunt, hooflike claws; and the fifth finger diverged 
+                  laterally from the others. The teeth were ridged and formed 
+                  sloping surfaces whose grinding action could pulverize its diet of low-growing ferns and
+                  horsetails.
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 06 ---->
+
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"flying reptile"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Pteranodon</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Wingspan: 23 feet long or more, Height: 6 feet, Weight: 55 pounds</span> 
+                </h5>
+                
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Late Cretaceous Period (90 million - 100 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Pteranodon was a flying reptile who had a wingspan of 23 feet long or more. Pteranodon's large size 
+                  was probably the why it most likely soared than beat its wings. Although the limbs appear robust, 
+                  the bones were completely hollow, and their walls were no thicker than about one millimetre. 
+                  The shape of the bones, however, made them resistant to the aerodynamic forces of flight. Its 
+                  toothless jaws were very long and pelican-like. The design of Pteranodon's jaws and discovery of 
+                  fossilized fish bones and scales alongside Pteranodon specimens suggest a diet of fish. 
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 07 ---->
+
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"spined reptile"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Spinosaurus</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Length: 46 feet, Height: 14 feet, Weight: 13 tons</span>
+                </h5>
+             
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Cenomanian Period (roughly 100 to 94 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span>
+                  Spinosaurus, or "spined reptile" was named for its "sail-back" feature, created
+                  by tall vertebral spines. Longer and heavier than Tyrannosaurus, Spinosaurus 
+                  is the largest known carnivorous dinosaur. The sail over the animal's back 
+                  was probably used for social displays or species recognition rather than for 
+                  temperature regulation. Some authorities maintain that the sail was actually 
+                  a hump used to store water and lipids. Like other spinosaurids, Spinosaurus 
+                  possessed a long, narrow skull resembling that of a crocodile and nostrils 
+                  near the eyes instead of the end of the snout. Its teeth were straight and 
+                  conical instead of curved and bladelike as in other theropods. 
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+
+          <!---- 08 ---->
+
+          <div class="swiper-slide">
+            <div class="slide-subtitle">
+              <h4><span>"thick-headed lizard"</span></h4>
+            </div>
+            <div class="slide-title">
+              <p><span>Pachycephalosaurus</span></p>
+            </div>
+            <div class="slide-detail-facts">
+              <div>
+                <h5>
+                  SIZE:
+                  <span style="opacity: 0.8">
+                    Length: 16 feet, Height: 17.5 feet, Weight: 1 ton</span>
+                </h5>
+                <h5>
+                  TIME PERIOD:
+                  <span style="opacity: 0.8">
+                    Late Cretaceous Epoch (about 100 million - 65.5 million years ago)
+                 </span>
+                </h5>
+              </div>
+            </div>
+            <div class="slide-detail">
+              <p>
+                <span
+                  >Pachycephalosaurus was a biped with strong hind limbs and much less developed
+                  forelimbs. Its high, domelike skull was formed by a thick mass of solid bone 
+                  grown over the tiny brain. Its large head could reach 2 
+                  feet in length. The massive, solid bone dome on top of its head was 10 inches 
+                  (25 centimeters) thick. This dome was surrounded by bony knobs and spikes, 
+                  making Pachycephalosaurus look as if it were wearing a crown. It also had 
+                  spikes running down its snout. It has been suggested that these animals were head 
+                  butters like living rams, but the confirmation of the domes says otherwise. 
+                  Flank-butting remains a possibility, but a more likely function in most was 
+                  species recognition or display. 
+                </span>
+              </p>
+            </div>
+            <div class="slide-img"></div>
+          </div>
+        </div>
+      </div>
+
+<!---- BACK TO TOP BUTTON ---->
+      <div class="back-to-top">Back To Top</div>
+<!---- PAGINATION SLIDER ---->
+        <div class="dinosaur-links"></div>
+      </div>
+    </section>
+
+<!---- ERROR MESSAGE IF SCREEN < 1200PX ---->
+    <h3 class="error">Oopsie! Right now this demo doesn't handle resizing on browsers less than 1200px wide. Resize to 1200px or larger and reload this page or get on a laptop :)</h3>
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/src/js/script.js" type="text/javascript"></script>
+  </body>
+</html>
+
