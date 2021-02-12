@@ -12,3 +12,6 @@ An educational website for students ages 9-12. Built with HTML5, CSS3, SwiperJS,
 ## Resources
 - All vector art is attributed to user upklyak on [Freepik](https://www.freepik.com)
 - All dinosaur content is attributed to [Brittanica](https://www.brittanica.com)
+
+## Project Screenshot
+![Project Screenshot](https://github.com/veelam/rad-dinos/blob/main/rad-dinos-screenshot.png)
